@@ -361,6 +361,8 @@ Os testes usam SQLite em memória, com configuração isolada em [phpunit.xml](p
 
 O redesign foi conferido no navegador por DOM, dimensões, estilos computados e interações em desktop, tablet e celular. A captura de screenshots falhou na ferramenta utilizada; essa evidência visual permanece pendente. Os resultados estão no [relatório de redesign](RELATORIO_REDESIGN.md).
 
+Na primeira publicação, os checks do GitHub identificaram uma diferença entre ambientes: o parser legado `DOMDocument::loadHTML()` rejeitou tags HTML5 utilizadas nas telas. Os testes de formulários passaram a usar [`Dom\HTMLDocument::createFromString()`](https://www.php.net/manual/en/dom-htmldocument.createfromstring.php) e `Dom\XPath`, disponíveis desde PHP 8.4. As verificações de CSRF, valores preenchidos e seleção de participantes foram preservadas. Essa correção permanece limitada à leitura de HTML nos testes.
+
 ## 25. Bugs também fazem parte do aprendizado
 
 Durante o projeto ocorreram métodos dentro de outros métodos, chaves fora do lugar, código de Controller colado em rotas, erro de digitação em migration, métodos duplicados, problemas de sessão ao alternar `localhost` e `127.0.0.1` e constraints incompatíveis com novas regras.

@@ -1,7 +1,11 @@
 <?php
 
+use const Dom\HTML_NO_DEFAULT_NS;
+
 use App\Models\Tournament;
 use App\Models\User;
+use Dom\HTMLDocument;
+use Dom\XPath;
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Database\UniqueConstraintViolationException;
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
@@ -123,9 +127,8 @@ it('shows tournament validation errors while preserving the submitted fields', f
         ->get(route('tournaments.create'));
     $page->assertOk()->assertViewHas('errors', fn ($bag) => $bag->any());
     $page->assertSee(__('validation.min.numeric', ['attribute' => 'registration fee', 'min' => 0]));
-    $document = new DOMDocument;
-    $document->loadHTML($page->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($page->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
 
     foreach (['name', 'event_date', 'location', 'registration_fee'] as $field) {
         expect($fields->evaluate('string(//input[@name="'.$field.'"]/@value)'))->toBe((string) $input[$field]);
@@ -163,9 +166,8 @@ it('keeps public tournament pages free of administration and private participant
         ->assertDontSee('Excluir torneio')
         ->assertDontSee('pix-ficticio-da-auditoria');
 
-    $document = new DOMDocument;
-    $document->loadHTML($page->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($page->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
     expect($fields->evaluate('string(//form/@action)'))->toBe(route('registrations.store'));
     expect($fields->evaluate('string(//input[@name="tournament_id"]/@value)'))->toBe((string) $tournament->id);
     expect($fields->evaluate('count(//select[@name="athlete_id"]/option[@value="'.$ownAthlete->id.'"])'))->toBe(1.0);
@@ -417,9 +419,8 @@ it('includes a CSRF token in every rendered business form', function (string $na
 
     $page = $this->actingAs($owner)->get(route($name, $needsTournament ? [$tournament] : []));
     $page->assertOk();
-    $document = new DOMDocument;
-    $document->loadHTML($page->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($page->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
     $forms = $fields->query('//form[@method="POST"]');
 
     expect($forms->length)->toBeGreaterThan(0);

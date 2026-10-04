@@ -1,6 +1,10 @@
 <?php
 
+use const Dom\HTML_NO_DEFAULT_NS;
+
 use App\Models\User;
+use Dom\HTMLDocument;
+use Dom\XPath;
 
 it('asks for an explicit participant choice instead of defaulting to an existing registration', function () {
     $account = User::factory()->create();
@@ -19,9 +23,8 @@ it('asks for an explicit participant choice instead of defaulting to an existing
     $account->athletes()->create(['name' => 'Rodrigo']);
 
     $page = $this->actingAs($account)->get(route('tournaments.show', $tournament));
-    $document = new DOMDocument;
-    $document->loadHTML($page->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($page->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
     $selectedOption = $fields->query('//select[@name="athlete_id"]/option[@selected]')->item(0)
         ?? $fields->query('//select[@name="athlete_id"]/option')->item(0);
 
@@ -51,9 +54,8 @@ it('returns a newly created participant to the tournament selected for explicit 
 
     $createPage = $this->get(route('athletes.create', ['tournament' => $tournament->id]));
     $createPage->assertSee('Nome do participante');
-    $createDocument = new DOMDocument;
-    $createDocument->loadHTML($createPage->getContent());
-    $createFields = new DOMXPath($createDocument);
+    $createDocument = HTMLDocument::createFromString($createPage->getContent(), HTML_NO_DEFAULT_NS);
+    $createFields = new XPath($createDocument);
     expect($createFields->evaluate('string(//input[@name="tournament_id"]/@value)'))
         ->toBe((string) $tournament->id);
 
@@ -70,9 +72,8 @@ it('returns a newly created participant to the tournament selected for explicit 
     ]);
 
     $tournamentPage = $this->get(route('tournaments.show', $tournament));
-    $document = new DOMDocument;
-    $document->loadHTML($tournamentPage->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($tournamentPage->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
     $selectedAthleteId = $fields->evaluate('string(//select[@name="athlete_id"]/option[@selected]/@value)');
 
     expect($selectedAthleteId)->toBe((string) $secondAthlete->id);
@@ -287,9 +288,8 @@ it('preserves the selected participant when registration validation fails', func
         ->assertSessionHasErrors('tournament_id');
 
     $page = $this->get(route('tournaments.show', $tournament));
-    $document = new DOMDocument;
-    $document->loadHTML($page->getContent());
-    $fields = new DOMXPath($document);
+    $document = HTMLDocument::createFromString($page->getContent(), HTML_NO_DEFAULT_NS);
+    $fields = new XPath($document);
 
     expect($fields->evaluate('string(//select[@name="athlete_id"]/option[@selected]/@value)'))
         ->toBe((string) $selectedAthlete->id);
