@@ -1,0 +1,1406 @@
+[
+  {
+    "page": "dashboard",
+    "theme": "claro",
+    "metrics": {
+      "colors": {
+        "body": "rgb(247, 248, 245)",
+        "font": "\"Instrument Sans\", ui-sans-serif, system-ui, sans-serif",
+        "text": "rgb(23, 37, 29)"
+      },
+      "dark": false,
+      "height": 1000,
+      "main": {
+        "bottom": 827.2291717529297,
+        "height": 738.5625,
+        "left": 120,
+        "right": 1320,
+        "top": 88.66667175292969,
+        "width": 1200,
+        "x": 120,
+        "y": 88.66667175292969
+      },
+      "overflow": [],
+      "scrollWidth": 1440,
+      "title": {
+        "bottom": 317.06251525878906,
+        "height": 137.7916717529297,
+        "left": 160,
+        "right": 757.8125,
+        "top": 179.27084350585938,
+        "width": 597.8125,
+        "x": 160,
+        "y": 179.27084350585938
+      },
+      "width": 1440
+    }
+  },
+  {
+    "page": "disponiveis",
+    "metrics": {
+      "dark": false,
+      "heading": "Torneios disponíveis",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "meus-torneios",
+    "metrics": {
+      "dark": false,
+      "heading": "Meus torneios",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar novo torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "criar-torneio",
+    "metrics": {
+      "dark": false,
+      "heading": "Criar torneio",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar torneio ↗"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "torneio-publico",
+    "metrics": {
+      "dark": false,
+      "heading": "Copa da Areia",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Inscrever-se ↗"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "gerenciar",
+    "metrics": {
+      "dark": false,
+      "heading": "Copa da Areia",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "participante",
+    "metrics": {
+      "dark": false,
+      "heading": "Novo participante",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Cadastrar participante"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "inscricoes",
+    "metrics": {
+      "dark": false,
+      "heading": "Minhas inscrições",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "pagamento-pendente",
+    "metrics": {
+      "dark": false,
+      "heading": "Minha inscrição",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "pagamento-confirmado",
+    "metrics": {
+      "dark": false,
+      "heading": "Minha inscrição",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "dashboard",
+    "metrics": {
+      "dark": true,
+      "heading": "Grandes encontros.Começos simples.",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "disponiveis",
+    "metrics": {
+      "dark": true,
+      "heading": "Torneios disponíveis",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "criar-torneio",
+    "metrics": {
+      "dark": true,
+      "heading": "Criar torneio",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Criar torneio ↗"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "gerenciar",
+    "metrics": {
+      "dark": true,
+      "heading": "Copa da Areia",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1425,
+      "width": 1425
+    }
+  },
+  {
+    "page": "pagamento-pendente",
+    "metrics": {
+      "dark": true,
+      "heading": "Minha inscrição",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": "none"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "dashboard",
+    "metrics": {
+      "dark": true,
+      "heading": "Grandes encontros.Começos simples.",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "disponiveis",
+    "metrics": {
+      "dark": true,
+      "heading": "Torneios disponíveis",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "meus-torneios",
+    "metrics": {
+      "dark": true,
+      "heading": "Meus torneios",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar novo torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "criar-torneio",
+    "metrics": {
+      "dark": true,
+      "heading": "Criar torneio",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Criar torneio ↗"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "torneio-publico",
+    "metrics": {
+      "dark": true,
+      "heading": "Copa da Areia",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Inscrever-se ↗"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "gerenciar",
+    "metrics": {
+      "dark": true,
+      "heading": "Copa da Areia",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "participante",
+    "metrics": {
+      "dark": true,
+      "heading": "Novo participante",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Cadastrar participante"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "page": "inscricoes",
+    "metrics": {
+      "dark": true,
+      "heading": "Minhas inscrições",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "pagamento-pendente",
+    "metrics": {
+      "dark": true,
+      "heading": "Minha inscrição",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "pagamento-confirmado",
+    "metrics": {
+      "dark": true,
+      "heading": "Minha inscrição",
+      "height": 844,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "dashboard",
+    "metrics": {
+      "dark": true,
+      "heading": "Grandes encontros.Começos simples.",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "disponiveis",
+    "metrics": {
+      "dark": true,
+      "heading": "Torneios disponíveis",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "gerenciar",
+    "metrics": {
+      "dark": true,
+      "heading": "Copa da Areia",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "inscricoes",
+    "metrics": {
+      "dark": true,
+      "heading": "Minhas inscrições",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 40,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "gerenciar-tablet",
+    "metrics": {
+      "dark": true,
+      "heading": "Copa da Areia",
+      "height": 1024,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 753,
+      "width": 753
+    }
+  },
+  {
+    "page": "dashboard",
+    "metrics": {
+      "dark": false,
+      "heading": "Grandes encontros.Começos simples.",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "disponiveis",
+    "metrics": {
+      "dark": false,
+      "heading": "Torneios disponíveis",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "meus-torneios",
+    "metrics": {
+      "dark": false,
+      "heading": "Meus torneios",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "+ Criar novo torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "criar-torneio",
+    "metrics": {
+      "dark": false,
+      "heading": "Criar torneio",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar torneio ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "torneio-publico",
+    "metrics": {
+      "dark": false,
+      "heading": "Copa da Areia",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Inscrever-se ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "gerenciar",
+    "metrics": {
+      "dark": false,
+      "heading": "Copa da Areia",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "participante",
+    "metrics": {
+      "dark": false,
+      "heading": "Novo participante",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Cadastrar participante"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "inscricoes",
+    "metrics": {
+      "dark": false,
+      "heading": "Minhas inscrições",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "pagamento-pendente",
+    "metrics": {
+      "dark": false,
+      "heading": "Minha inscrição",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "pagamento-confirmado",
+    "metrics": {
+      "dark": false,
+      "heading": "Minha inscrição",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "configuracoes-aparencia",
+    "metrics": {
+      "dark": false,
+      "heading": "Settings",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 360,
+      "width": 360
+    }
+  },
+  {
+    "page": "configuracoes-perfil",
+    "metrics": {
+      "dark": true,
+      "heading": "Settings",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "inscricao-gratuita",
+    "metrics": {
+      "dark": true,
+      "heading": "Minha inscrição",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": "grid"
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 44,
+          "text": "+ Criar torneio"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "inicio-publico",
+    "metrics": {
+      "dark": true,
+      "heading": "Mais jogo.Menos complicação.",
+      "height": 800,
+      "nav": {
+        "desktop": "none",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 0,
+          "text": "Criar conta"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Torneios disponíveis ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "cadastro",
+    "metrics": {
+      "dark": true,
+      "heading": "Entre para o jogo.",
+      "height": 800,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Criar conta ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "login",
+    "metrics": {
+      "dark": true,
+      "heading": "Bom ter você de volta.",
+      "height": 800,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Entrar na conta ↗"
+        }
+      ],
+      "scrollWidth": 360,
+      "width": 360
+    }
+  },
+  {
+    "page": "login-claro-com-erro",
+    "metrics": {
+      "dark": false,
+      "heading": "Bom ter você de volta.",
+      "height": 800,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Entrar na conta ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "cadastro-claro-mobile",
+    "metrics": {
+      "dark": false,
+      "heading": "Entre para o jogo.",
+      "height": 800,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar conta ↗"
+        }
+      ],
+      "scrollWidth": 345,
+      "width": 345
+    }
+  },
+  {
+    "page": "login-claro-desktop",
+    "metrics": {
+      "dark": false,
+      "heading": "Bom ter você de volta.",
+      "height": 1000,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Entrar na conta ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "cadastro-claro-desktop",
+    "metrics": {
+      "dark": false,
+      "heading": "Entre para o jogo.",
+      "height": 1000,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar conta ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "inicio-claro-desktop",
+    "metrics": {
+      "dark": false,
+      "heading": "Mais jogo.Menos complicação.",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar conta"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Torneios disponíveis ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "torneio-visitante",
+    "metrics": {
+      "dark": false,
+      "heading": "Copa da Areia",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Criar conta"
+        },
+        {
+          "background": "rgb(39, 103, 73)",
+          "color": "rgb(255, 255, 255)",
+          "height": 46,
+          "text": "Entre para se inscrever"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "login-escuro-desktop",
+    "metrics": {
+      "dark": true,
+      "heading": "Bom ter você de volta.",
+      "height": 1000,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Entrar na conta ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "cadastro-escuro-desktop",
+    "metrics": {
+      "dark": true,
+      "heading": "Entre para o jogo.",
+      "height": 1000,
+      "nav": {
+        "desktop": "block",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Criar conta ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "inicio-escuro-desktop",
+    "metrics": {
+      "dark": true,
+      "heading": "Mais jogo.Menos complicação.",
+      "height": 1000,
+      "nav": {
+        "desktop": "flex",
+        "mobile": null
+      },
+      "overflow": [],
+      "primary": [
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Criar conta"
+        },
+        {
+          "background": "rgb(180, 216, 139)",
+          "color": "rgb(23, 37, 29)",
+          "height": 46,
+          "text": "Torneios disponíveis ↗"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  }
+]
