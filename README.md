@@ -7,9 +7,20 @@ Projeto desenvolvido como parte da minha evolução nos estudos de PHP, começan
 Este README registra o caminho de aprendizado e as decisões que formaram a aplicação. O código publicado corresponde à versão Laravel; os exemplos de PHP puro documentam a etapa anterior, sem apresentar aquela implementação como parte deste repositório.
 
 - [Instalação, execução e confirmação de e-mail](GUIA_DESENVOLVIMENTO.md).
+- [Prints do aplicativo](#prints-do-aplicativo).
 - [Mapa de rotas, telas e arquivos](#mapa-dos-caminhos-da-aplicação).
 - [Estado atual e próximos passos](#status-atual).
 - [Relatórios das etapas de desenvolvimento](#registros-do-desenvolvimento).
+
+## Prints do aplicativo
+
+Capturas reais do app nos temas claro e escuro. As telas usam um ambiente de demonstração separado, com contas, participantes, eventos e chave Pix fictícios.
+
+| Tema claro | Tema escuro |
+| --- | --- |
+| ![Dashboard do Torneio no tema claro](public/screenshots/dashboard-claro.jpg) | ![Dashboard do Torneio no tema escuro](public/screenshots/dashboard-escuro.jpg) |
+
+A [galeria completa com 20 prints](public/screenshots/README.md) mostra login, dashboard, torneios disponíveis, criação, página pública, gestão de inscritos, Minhas inscrições, pagamento Pix e navegação no celular. Cada tela possui uma versão clara e outra escura.
 
 ## Sobre o projeto
 
@@ -359,7 +370,7 @@ npm run build
 
 Os testes usam SQLite em memória, com configuração isolada em [phpunit.xml](phpunit.xml). O `--debug` do PHPStan permite executar a análise sem o paralelismo que exige um socket local em ambientes restritos.
 
-O redesign foi conferido no navegador por DOM, dimensões, estilos computados e interações em desktop, tablet e celular. A captura de screenshots falhou na ferramenta utilizada; essa evidência visual permanece pendente. Os resultados estão no [relatório de redesign](RELATORIO_REDESIGN.md).
+O redesign foi conferido no navegador por DOM, dimensões, estilos computados e interações em desktop, tablet e celular. A captura de screenshots, que havia falhado na primeira etapa, foi concluída posteriormente: os 20 prints reais estão na [galeria](public/screenshots/README.md). Os resultados estão no [relatório de redesign](RELATORIO_REDESIGN.md).
 
 Na primeira publicação, os checks do GitHub identificaram uma diferença entre ambientes: o parser legado `DOMDocument::loadHTML()` rejeitou tags HTML5 utilizadas nas telas. Os testes de formulários passaram a usar [`Dom\HTMLDocument::createFromString()`](https://www.php.net/manual/en/dom-htmldocument.createfromstring.php) e `Dom\XPath`, disponíveis desde PHP 8.4. As verificações de CSRF, valores preenchidos e seleção de participantes foram preservadas. Essa correção permanece limitada à leitura de HTML nos testes.
 
@@ -510,6 +521,7 @@ Todos os caminhos abaixo são relativos à raiz do repositório.
 | [resources/views/partials/tournament-navigation.blade.php](resources/views/partials/tournament-navigation.blade.php) | Navegação dos fluxos do torneio |
 | [resources/css/app.css](resources/css/app.css) | Temas, paleta, tipografia e responsividade |
 | [resources/js/app.js](resources/js/app.js) | Entrada dos assets JavaScript |
+| [public/screenshots/](public/screenshots/) | Prints reais dos dois temas e galeria das telas |
 | [tests/Feature/](tests/Feature/) | Regras do domínio, autorização, autenticação e configurações |
 | [phpunit.xml](phpunit.xml) / [phpstan.neon](phpstan.neon) | Isolamento dos testes e análise estática |
 | [.env.example](.env.example) | Modelo de configuração sem credenciais reais |
@@ -533,7 +545,7 @@ O núcleo funcional do MVP foi implementado e validado. Isso inclui autenticaç�
 
 **A disponibilização para usuários reais depende da entrega de e-mails.** O ambiente de desenvolvimento usa `log`; é necessário configurar um transporte de entrega e verificar o recebimento e o acesso ao dashboard. O fluxo de confirmação já existe.
 
-Também permanecem pendentes a comprovação de concorrência com requisições simultâneas em PostgreSQL isolado, a conferência visual por screenshots e a tradução de textos remanescentes nas configurações. A autenticação em duas etapas está desabilitada e não foi validada como funcionalidade completa.
+Também permanecem pendentes a comprovação de concorrência com requisições simultâneas em PostgreSQL isolado e a tradução de textos remanescentes nas configurações. A autenticação em duas etapas está desabilitada e não foi validada como funcionalidade completa.
 
 Os relatórios registram a situação de cada etapa na sua data. Uma pendência de um relatório antigo pode já ter sido resolvida na etapa seguinte; este README descreve o estado consolidado.
 
@@ -549,10 +561,11 @@ A sequência de trabalho passou por fundamentos em PHP puro, separação de resp
 
 No fechamento, foram concluídos o gerenciamento de inscritos, a confirmação manual, as correções de validação, Minhas inscrições, o tratamento de gratuidade, a exclusão segura da conta, a navegação e os testes. Em seguida, foram aplicados a identidade visual, a responsividade e os dois temas.
 
-Os próximos passos são configurar e comprovar a entrega de e-mails, testar concorrência em PostgreSQL isolado e concluir a conferência visual e a tradução restante. Funcionalidades adicionais podem ser avaliadas após essas verificações.
+Os próximos passos são configurar e comprovar a entrega de e-mails, testar concorrência em PostgreSQL isolado e concluir a tradução restante. Funcionalidades adicionais podem ser avaliadas após essas verificações.
 
 ## Registros do desenvolvimento
 
+- [Galeria de prints do aplicativo](public/screenshots/README.md): telas reais nos temas claro e escuro, incluindo o celular.
 - [Auditoria e evolução de 01/10/2026](RELATORIO_DESENVOLVIMENTO_2026-10-01.md): rotas, domínio, validação, Pix, acesso e problemas encontrados.
 - [Fechamento funcional do MVP](RELATORIO_FECHAMENTO_MVP.md): decisões finais, correções, testes e pendência de e-mail.
 - [Redesign e verificações dos temas](RELATORIO_REDESIGN.md): identidade, componentes, telas, navegação e limites da validação visual.

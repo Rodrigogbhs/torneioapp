@@ -132,7 +132,7 @@ O PHPStan foi executado sem paralelismo porque o ambiente restringe a abertura d
 
 ## 10. Pendências
 
-- As capturas de imagem falharam na ferramenta do navegador. A verificação realizada cobre DOM, dimensões, estilos computados e interações; uma conferência adicional por screenshots permanece pendente. Não foram produzidas imagens para simular essa evidência.
+- **Capturas concluídas em uma etapa posterior:** a primeira tentativa falhou na ferramenta do navegador e não produziu imagens. A tarefa de documentação posterior capturou e conferiu 20 prints reais nos dois temas, incluindo o celular. As imagens estão na [galeria do aplicativo](public/screenshots/README.md), com dados fictícios em ambiente separado.
 - O build informa que o pacote opcional `fontaine` não está instalado para otimizar fontes de fallback. A compilação funciona e nenhuma dependência foi adicionada.
 - As telas secundárias do starter e algumas mensagens de autenticação continuam em inglês. A tradução completa não fez parte desta reformulação.
 - A configuração de envio real de e-mails mantém a pendência anterior documentada em `RELATORIO_FECHAMENTO_MVP.md`; o redesign não alterou `.env` ou entrega de e-mails.
